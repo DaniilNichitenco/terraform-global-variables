@@ -14,6 +14,7 @@ variable "team_name" {
 }
 
 variable "project_name" {
-  description = "Project name."
+  description = "Team name."
   type        = string
+  default = "myproject"
 }

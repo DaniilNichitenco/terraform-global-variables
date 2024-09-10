@@ -11,3 +11,8 @@ output "tags" {
     Environment       = var.deploy_env
   }
 }
+
+output "project_name" {
+  description = "Project name."
+  value = "MyProject"
+}
