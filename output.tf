@@ -14,5 +14,5 @@ output "tags" {
 
 output "project_name" {
   description = "Project name."
-  value = "MyProject"
+  value = var.project_name
 }
