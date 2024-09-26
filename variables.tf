@@ -16,5 +16,5 @@ variable "team_name" {
 variable "project_name" {
   description = "Project name."
   type        = string
-  default = "myproject"
+  default = "terraform"
 }
